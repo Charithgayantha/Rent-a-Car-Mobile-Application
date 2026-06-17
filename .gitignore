@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Local env files (highly sensitive)
+.env
+.env.*
+!.env.example
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Large/executable files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Project specific ignores
+.snapshots/
+backend/uploads/
+backend/server.js.backup
+
+# Native build folders
+/ios/
+/android/
+
+# System and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
